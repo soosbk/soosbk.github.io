@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../2021/암호분석/실습코드"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "hwf"
+	}
+}

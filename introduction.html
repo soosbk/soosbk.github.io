@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<head>
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varela+Round"/>
+
+    <link href="./introduction.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+</head>
+
+<body>
+    <div class="gif">
+        <img src="./mypic.jpeg" width="80%" height="80%" frameBorder="0"
+            class="giphy-embed" allowFullScreen></img>
+        
+    </div>
+    <div class="boxes">
+        <details id="name">
+            <summary>KSB<span class="realname">(Soobin Kim)</span></summary>
+            <ul class="info">
+                <li>저는 2000년 12월 13일 아주 추운날 수요일 새벽에 태어났어요</li>
+                <li>저의 이름은 할머니께서 지어주셨답니다.</li>
+                <li>제 이름의 뜻은</li>
+                <li>빼어나게 빛나라 라는 의미에요</li>
+            </ul>
+        </details>
+        <details id="Major">
+            <summary>Major</summary>
+            <ul>
+                <li>제1 전공: 정보보안암호수학과</li>
+                <li>복수 전공: 소프트웨어학부</li>
+                <li>저는 수학과지만 수학을 더럽게 못한답니다.</li>
+                <li>(살려줘요 ㅠ.ㅠ)</li>
+                <li><img src="https://lh3.googleusercontent.com/proxy/5M_mLpVjpSuQUjWQNoNLlTVwT9oaxoz2mMNk-PY7sri1NnehwXS0oangbJJvWlR549CS2xM2BXiwtjKajgFEm7qFqIQiJo6ub17-Hbtugy536y18vZOu-WnavPxKSlmQm0xH7-N9ZUKWU5g4LukDjZOVzcF0GGE8zs0Jx76qCZwXYuUcnnK0_q3mMzlnYaz4oL7FlhcK"></li>
+                <li>제가 세상에서 제일 싫어하는 인물은 오일러입니다.</li>
+                <li><a href="https://www.sciencetimes.co.kr/news/%EC%88%98%ED%95%99-%EB%82%9C%EC%A0%9C-%ED%92%80%EA%B8%B0%EB%A5%BC-%EC%A6%90%EA%B8%B4-%EB%85%BC%EB%AC%B8-%EB%8B%A4%EC%9E%91%EC%99%95%EB%93%A4/" target="_blank">이유...</a></li>
+            </ul>
+        </details>
+        <details id="Home">
+            <summary>Home</summary>
+            <ul>
+                <li>유년기: 잠실</li>
+                <li>초중딩: 답십리</li>
+                <li>동대문구 핫플 너무 잘 알아요!</li>
+                <li>현재: 중랑구</li>
+            </ul>
+        </details>
+        <details id="Hobby">
+            <summary>Hobby</summary>
+            <ul>
+                <li>K-pop 과몰입하는 사람이에요</li>
+                <li>아이돌 띵곡 많이 알고 있으니까 자유롭게 물어보세요</li>
+                <li>(사실 저는 롤린 재작년부터 들었다구요!)</li>
+                <li><a href="https://www.youtube.com/watch?v=pa86DMlUpHg">요즘 띵곡 (선정이유: 가사가 너무 조흠 ㅠ.ㅠ)</a></li>
+                <li>메인 취미는 머리염색이에요 (다음 색 추천바다요..ㅋ)</li>
+                <li>가만히 누워서 멍때리기 좋아해요</li>
+                <li>집에 있는 것도 좋아하지만 밖에서 노는 것도 너무 좋아해서 일주일을 적절히 분배해서 놀아요</li>
+                <li>요즘 하늘 사진 찍는 거 좋아하는데 동생이 자꾸 나이 먹었냐고 놀립니다...ㅋ</li>
+                <li><img src="./sky.jpeg" width=80%, hegiht=80%></li>
+            </ul>
+        </details>
+        <details id="MBTI">
+            <summary>MBTI</summary>
+            ESTJ
+            <ul>
+                <li><img src="data:image/png;base64,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"></li>
+                <li>엄격한 지도자형</li>
+                <li>뼛 속부터 계획충입니다.</li>
+                <li>사실 저는 매일매일 플래너를 써요 ㅎㅎ</li>
+                <li>그러나 즉흥적인 것도 좋아합니다.</li>
+                <li>"현재"가 가장 중요합니다.</li>
+            </ul>
+        </details>
+        <details id="Color">
+            <summary>COLOR</summary>
+            <ul>
+                <li>빨강</li>
+                <li><img src="./1.jpeg" width=80%, hegiht=80%></li>
+                <li>파랑</li>
+                <li><img src="./2.jpeg" width=80%, hegiht=80%></li>
+                <li>보라</li>
+                <li><img src="./3.jpeg" width=80%, hegiht=80%></li>
+                <li>노랑</li>
+                <li><img src="./4.jpeg" width=80%, hegiht=80%></li>
+                <li>사실 다른 것도 많아요,.. 다만 사진이 업스</li>
+                <li>현재는 다홍색을 유지 중입니다.</li>
+                <li><img src="./5.jpeg" width=80%, hegiht=80%></li>
+                <li><b>(따끈따끈한 어제사진)</b></li>
+            </ul>
+        </details>
+        <details id="tmi">
+            <summary>TMI</summary>
+            <ul>
+                <li>요즘 고잉세븐틴 보는 재미에 빠졌습니다. (다들 제발 봐주세요)</li>
+                <li>대부분 학교에 있어요</li>
+                <li>요즘 매니큐어에 빠졌습니다.</li>
+                <li>다음에 어떤 색으로 머리를 염색할 지 너무 고민중입니다.</li>
+                <li>먹고 싶은 건 그때 먹어야하고, 기분 나쁘다가도 맛있는 거 먹으면 화가 풀려요 ㅋㅋ</li>
+            </ul>
+        </details>
+        <details id="ae">
+            <summary>ㅋㅋㅋㅋ</summary>
+            <ul>
+                <li>에베베 이거는 뭐 쓸지 몰라서 비워놓은거임 ㅋ</li>
+                <li><img src="https://mblogthumb-phinf.pstatic.net/20160515_205/river-b_1463320589179cQIRK_GIF/pikicast22465806.gif?type=w800">
+            </ul>
+        </details>
+    </div>
+    <script type="text/javascript" src="introduction.js"></script>
+</body>
